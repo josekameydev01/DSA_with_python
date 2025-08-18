@@ -1,3 +1,4 @@
+# Time complexity: O(1)
 def remove_element(arr, i):
     for index in range(i + 1, len(arr)):
         arr[index - 1] = arr[index]
