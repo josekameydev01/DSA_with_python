@@ -1,3 +1,4 @@
+# Time complexity: O(1)
 def insert(arr, n, length, capacity):
     if length < capacity:
         arr[length] = n
